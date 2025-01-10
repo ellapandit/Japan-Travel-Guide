@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Get in touch with us at Japan Travel Guide. Contact us for any inquiries, feedback, or assistance planning your trip to Japan.">
-  <title>Contact Us - Japan Travel Guide</title>
+  <meta name="description" content="Subscribe to our blog for the latest travel tips, hidden gems, and cultural insights about Japan.">
+  <title>Subscribe to Our Blog - Japan Travel Guide</title>
   <link rel="icon" href="images/Favicon.png" type="image/x-icon"><!-- Favicon-->
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -29,49 +29,36 @@
         <li><a href="destinations.html">Destinations</a></li>
         <li><a href="travel.html">Travel Tips</a></li>
         <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-    <!-- Secondary Hero Section -->
-    <div class="secondary-hero">
-      <h2>Contact Us</h2>
-      <p>We’d love to hear from you! Reach out for inquiries, feedback, or assistance with planning your Japan trip.</p>
-    </div>
-
   <!-- Main Content -->
   <main>
-    <!-- Contact Form -->
     <section>
-      <h2>Send Us a Message</h2>
-      <form action="#" method="post" class="contact-form">
-        <label for="name">Your Name:</label>
+      <h2>Subscribe to Our Blog</h2>
+      <p>Get the latest updates on travel tips, hidden gems, and cultural insights about Japan straight to your inbox!</p>
+
+      <!-- Subscription Form -->
+      <form action="subscribe-success.html" method="post" class="subscribe-form">
+        <label for="name">Name:</label>
         <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-        <label for="email">Your Email:</label>
+        <label for="email">Email:</label>
         <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-        <label for="message">Your Message:</label>
-        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
-
-        <!-- Submit Button -->
-        <input type="submit" value="Submit" class="submit-button">
+        <button type="submit" class="subscribe-button">Subscribe Now</button>
       </form>
     </section>
 
-    <!-- Additional Contact Details -->
+    <!-- Blog Highlights -->
     <section>
-      <h2>Other Ways to Reach Us</h2>
-      <p>
-        <strong>Email:</strong> <a href="mailto:contact@japantravelguide.com">contact@japantravelguide.com</a><br>
-        <strong>Phone:</strong> +1 (123) 456-7890<br>
-        <strong>Follow Us:</strong>
-      </p>
-      <ul class="social-media">
-        <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
-        <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
-        <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+      <h2>Latest Blog Posts</h2>
+      <ul class="blog-list">
+        <li><a href="#">Top 10 Must-Visit Places in Tokyo</a></li>
+        <li><a href="#">How to Enjoy Cherry Blossom Season in Kyoto</a></li>
+        <li><a href="#">The Ultimate Guide to Japanese Street Food</a></li>
       </ul>
     </section>
   </main>
@@ -79,7 +66,7 @@
   <footer>
     <p>&copy; 2024 Japan Travel Guide. All rights reserved.</p>
     
-    <!-- Social Media Links with Descriptive Text -->
+    <!-- Social Media Links -->
     <ul class="social-media">
         <li>
             <a href="https://facebook.com" target="_blank" aria-label="Visit our Facebook">
@@ -98,9 +85,11 @@
         </li>
     </ul>
 
+    <!-- Contact Us Button -->
+    <a href="contact.html" class="contact-us-button">Contact Us</a>
+
     <!-- Back to Top Link -->
     <a href="#top" class="back-to-top">Back to Top</a>
-  </footer>
+</footer>
 
-</body>
 </html>

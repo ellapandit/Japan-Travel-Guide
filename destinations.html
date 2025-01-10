@@ -1,47 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page - Japan Travel Guide</title>
-    <link rel="icon" href="images/Favicon2.png" type="image/x-icon"><!-- Favicon-->
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the top destinations in Japan, from bustling cities to tranquil rural escapes.">
+  <title>Destinations - Japan Travel Guide</title>
+  <link rel="icon" href="images/Favicon.png" type="image/x-icon"> <!-- Favicon -->
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <h1>Japan Travel Guide</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="destinations.html">Destinations</a></li>
-                <li><a href="travel.html">Travel Tips</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="embed.html">Embedding Multimedia</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Welcome to Healthy Food Recipes!</h2>
-            <article>
-                <img src="images/index1.jpg" alt="" class="responsive">
-                <div>
-                    <p>Your guide to delicious and nutritious meals. Explore our recipes to find healthy options that suit your taste.</p>
-                    <p>We focus on using fresh, organic ingredients that are not only healthy but also bursting with flavor. Join us on a journey to discover how easy it is to prepare meals that nourish your body and satisfy your cravings.</p>
-                </div>
-            </article>
-            <video controls>
-                <source src="images/cooking-video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <h3>Join Our Community</h3>
-            <p>Share your favorite recipes and connect with others who are passionate about healthy eating. Follow us on social media for daily inspiration!</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Japan Travel Guide</p>
-    </footer>
+  <!-- Header Section -->
+  <header>
+    <div class="logo-title">
+      <a href="index.html" class="logo-link">
+        <img src="images/logo.png" alt="Japan Travel Guide Logo" class="logo-image">
+      </a>
+      <a href="index.html" class="title-link">
+        <h1 id="top">Japan Travel Guide</h1>
+      </a>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html" class="active">Destinations</a></li>
+        <li><a href="travel.html">Travel Tips</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- Secondary Hero Section -->
+<div class="secondary-hero">
+  <h2>Top Destinations in Japan</h2>
+  <p>From vibrant cities to serene countryside, explore Japan's most iconic and breathtaking destinations.</p>
+</div>
+
+  <!-- Main Content Section -->
+  <main>
+    <!-- Tokyo Destination -->
+    <section>
+      <h2>Tokyo</h2>
+      <div class="destination">
+        <img src="images/tokyo.jpg" alt="Tokyo skyline at night" class="destination-image">
+        <p>Tokyo is the heart of Japan's modern culture and technology. Discover the Tokyo Tower, Shibuya Crossing, and the city's dynamic blend of modern and traditional attractions.</p>
+      </div>
+    </section>
+
+    <!-- Kyoto Destination -->
+    <section>
+      <h2>Kyoto</h2>
+      <div class="destination">
+        <img src="images/kyoto.jpg" alt="Kyoto traditional temple" class="destination-image">
+        <p>Kyoto's stunning temples, charming tea houses, and remarkable natural beauty provide a glimpse into Japan's past. Don't miss Kinkaku-ji, the Golden Pavilion, and the Arashiyama Bamboo Forest.</p>
+      </div>
+    </section>
+
+    <!-- Osaka Destination -->
+    <section>
+      <h2>Osaka</h2>
+      <div class="destination">
+        <img src="images/osaka.jpg" alt="Osaka Castle with a blue sky" class="destination-image">
+        <p>Osaka is known for its food scene, lively nightlife, and iconic landmarks like Osaka Castle. Enjoy Dotonbori's neon lights and indulge in some of the best street food in Japan.</p>
+      </div>
+    </section>
+
+    <!-- Hokkaido Destination -->
+    <section>
+      <h2>Hokkaido</h2>
+      <div class="destination">
+        <img src="images/hokkaido.jpg" alt="Hokkaido snow-covered mountain landscape" class="destination-image">
+        <p>Hokkaido is a paradise for nature lovers, offering stunning landscapes from snow-covered mountains to vibrant flower fields. The region is perfect for every season, especially skiing and hot springs.</p>
+      </div>
+    </section>
+
+    <!-- Okinawa Destination -->
+    <section>
+      <h2>Okinawa</h2>
+      <div class="destination">
+        <img src="images/okinawa.jpg" alt="Okinawa white sandy beach" class="destination-image">
+        <p>Okinawa, Japan’s southernmost island, is known for its beautiful beaches, crystal-clear waters, and rich cultural heritage. Explore the coral reefs and historical sites in this tropical paradise.</p>
+      </div>
+    </section>
+
+    <!-- Interactive Map Section -->
+    <section>
+      <h2>Explore the Destinations</h2>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4330738.760704651!2d122.9375!3d35.0000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c3990d03c7f%3A0x6c4e3d91db4e7fd6!2sJapan!5e0!3m2!1sen!2sus!4v1673259066400!5m2!1sen!2sus" width="600" height="400" style="border: 1px solid black;" allowfullscreen="" loading="lazy"></iframe>
+        <p>Interactive map of Japan's top travel destinations.</p>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section>
+      <h2>Watch the Highlights</h2>
+      <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CxuiFNYnEr4?si=ZAplXeaypLrQwBnv" title="Japan Travel Highlights" frameborder="0" allowfullscreen></iframe>
+        <p>Watch this video to see some of the most beautiful places in Japan.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Japan Travel Guide. All rights reserved.</p>
+    
+    <!-- Social Media Links -->
+    <ul class="social-media">
+      <li>
+        <a href="https://facebook.com" target="_blank" aria-label="Visit our Facebook">
+          <img src="images/facebook.png" alt="Facebook"> Facebook
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com" target="_blank" aria-label="Visit our Twitter">
+          <img src="images/twitter.png" alt="Twitter"> Twitter
+        </a>
+      </li>
+      <li>
+        <a href="https://instagram.com" target="_blank" aria-label="Visit our Instagram">
+          <img src="images/instagram.png" alt="Instagram"> Instagram
+        </a>
+      </li>
+    </ul>
+
+    <!-- Contact Us Button -->
+    <a href="contact.html" class="contact-us-button">Contact Us</a>
+
+    <!-- Back to Top Link -->
+    <a href="#top" class="back-to-top">Back to Top</a>
+  </footer>
+
 </body>
+
 </html>

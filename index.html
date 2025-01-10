@@ -1,48 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page - Japan Travel Guide</title>
-    <link rel="icon" href="images/Favicon2.png" type="image/x-icon"><!-- Favicon-->
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Japan with our comprehensive travel guide, from top destinations to hidden gems.">
+  <meta name="keywords" content="Japan, Travel, Tourism, Guide, Destinations, Culture">
+  <meta name="author" content="Japan Travel Guide Team">
+  <title>Japan Travel Guide</title>
+  <link rel="icon" href="images/Favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header>
-        <h1>Japan Travel Guide</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="destinations.html">Destinations</a></li>
-                <li><a href="travel.html">Travel Tips</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="embed.html">Embedding Multimedia</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Welcome to Healthy Food Recipes!</h2>
-            <article>
-                <img src="images/index1.jpg" alt="" class="responsive">
-                <div>
-                    <p>Your guide to delicious and nutritious meals. Explore our recipes to find healthy options that suit your taste.</p>
-                    <p>We focus on using fresh, organic ingredients that are not only healthy but also bursting with flavor. Join us on a journey to discover how easy it is to prepare meals that nourish your body and satisfy your cravings.</p>
-                </div>
-            </article>
-            <video controls>
-                <source src="images/cooking-video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <h3>Join Our Community</h3>
-            <p>Share your favorite recipes and connect with others who are passionate about healthy eating. Follow us on social media for daily inspiration!</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Japan Travel Guide</p>
-    </footer>
+
+<body class="home">
+  <!-- Header Section -->
+  <header>
+    <div class="logo-title">
+      <a href="index.html" class="logo-link">
+        <img src="images/logo.png" alt="Japan Travel Guide Logo" class="logo-image">
+      </a>
+      <a href="index.html" class="title-link">
+        <h1 id="top">Japan Travel Guide</h1>
+      </a>
+    </div>
+
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="travel.html">Travel Tips</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="subscribe.html" class="subscribe-button">Subscribe</a>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-content">
+      <h2>Welcome to Your Japan Travel Guide</h2>
+      <p>Discover the beauty, culture, and hidden gems of Japan. Start your journey here!</p>
+
+      <!-- Social Proof: User Count and Rating -->
+      <div class="social-proof">
+        <p><strong>Over 500,000 travelers</strong> trust our guide!</p>
+        <p>
+          <span class="star-rating">★★★★★</span>
+          Rated 4.8/5 by happy explorers
+        </p>
+      </div>
+
+      <!-- Call to Action -->
+      <a href="destinations.html" class="cta-button">Explore Destinations</a>
+    </div>
+  </div>
+
+  <!-- Main Content Section -->
+  <main id="content">
+    <!-- Reasons to Visit Japan Section -->
+    <section>
+      <h2>Top Reasons to Visit Japan</h2>
+      <p>Japan offers a perfect blend of modern innovation and rich tradition. From iconic landmarks like Mount Fuji to vibrant festivals and delicious cuisine, there's something for everyone. Whether you’re exploring Kyoto’s temples, enjoying Tokyo’s cutting-edge tech, or relaxing in hot springs, Japan promises unforgettable experiences with exceptional hospitality and easy transport.</p>
+    </section>
+
+    <!-- Highlights Section -->
+    <section>
+      <h2>Highlights</h2>
+      <ul class="highlights-list">
+        <li><strong>Top Destinations:</strong> Tokyo, Kyoto, Osaka</li>
+        <li><strong>Rich Cultural Heritage:</strong> Temples, festivals, and more</li>
+        <li><strong>World-Class Cuisine:</strong> Sushi, ramen, and local delicacies</li>
+      </ul>
+    </section>
+
+    <!-- Featured Podcast Section -->
+    <section>
+      <h2>Featured Podcast</h2>
+      <p>Listen to our featured podcast episode as we explore Japan's 10 greatest food locations:</p>
+      <iframe src="https://embed.acast.com/$/4d1eb966-6f07-4562-b9f1-9fd512f9631e/japans-10-greatest-food-locations-revealed?" frameborder="0" width="100%" height="110px" allow="autoplay"></iframe>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Japan Travel Guide. All rights reserved.</p>
+
+    <!-- Social Media Links -->
+    <ul class="social-media">
+      <li>
+        <a href="https://facebook.com" target="_blank" aria-label="Visit our Facebook">
+          <img src="images/facebook.png" alt="Facebook"> Facebook
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com" target="_blank" aria-label="Visit our Twitter">
+          <img src="images/twitter.png" alt="Twitter"> Twitter
+        </a>
+      </li>
+      <li>
+        <a href="https://instagram.com" target="_blank" aria-label="Visit our Instagram">
+          <img src="images/instagram.png" alt="Instagram"> Instagram
+        </a>
+      </li>
+    </ul>
+
+    <!-- Contact Us Button -->
+    <a href="contact.html" class="contact-us-button">Contact Us</a>
+
+    <!-- Back to Top Link -->
+    <a href="#top" class="back-to-top">Back to Top</a>
+  </footer>
+
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebPage",
+      "name": "Japan Travel Guide",
+      "description": "Explore Japan with our comprehensive travel guide, from top destinations to hidden gems.",
+      "author": {
+        "@type": "Organization",
+        "name": "Japan Travel Guide Team"
+      }
+    }
+  </script>
 </body>
+
 </html>
 
